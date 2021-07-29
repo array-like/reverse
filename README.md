@@ -4,12 +4,16 @@
 ArrayLike reversing for JavaScript.
 See [docs](https://array-like.github.io/reverse/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
+```js
+import {reverse} from '@array-like/reverse';
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+const a = Int32Array.from([1, 2, 3]);
+a; 1 2 3
+reverse(a, 0, 3);
+a; 3 2 1
+reverse(a, 1, 3);
+a; 3 1 2
+```
 
 [![License](https://img.shields.io/github/license/array-like/reverse.svg)](https://raw.githubusercontent.com/array-like/reverse/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@array-like/reverse.svg)](https://www.npmjs.org/package/@array-like/reverse)

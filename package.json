@@ -59,8 +59,12 @@
     "release": "np --message ':hatching_chick: release: Bumping to v%s.'",
     "test": "ava"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@array-like/swap": "^0.0.1"
+  },
   "devDependencies": {
+    "@array-like/alloc": "^0.0.1",
+    "@array-like/copy": "^0.0.1",
     "@babel/core": "7.14.8",
     "@babel/preset-env": "7.14.8",
     "@babel/register": "7.14.5",
