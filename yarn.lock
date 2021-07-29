@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@array-like/alloc@^0.0.1":
+"@array-like/alloc@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@array-like/alloc/-/alloc-0.0.1.tgz#2e013fa83dc278d2b0b7f9cb8747795d8a0abbff"
   integrity sha512-IwWJV6E2McrwXbzKttW6haVvIYWMFKtXXD7H1SkyfzulfShUar28mcrvo6fXRF+atBxFFAy5CAXg2ymMsTaC+g==
 
-"@array-like/copy@^0.0.1":
+"@array-like/copy@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@array-like/copy/-/copy-0.0.1.tgz#74f2c12d8565b7ae1eec44175de7378110addf07"
   integrity sha512-pdEazwiYER03ebO0rTEY1EytjHeWeCr7fm7FbLd7fhuqOTfCFIIL0tlfzQDX6YHJ1D219PsMEKyI5OO/mq7rzg==
