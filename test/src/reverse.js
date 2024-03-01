@@ -3,7 +3,7 @@ import test from 'ava';
 import {alloc} from '@array-like/alloc';
 import {copy} from '@array-like/copy';
 
-import {reverse} from '../../src/index.js';
+import {reverse} from '#module';
 
 const macro = (t, a, i, j, expected) => {
 	const reference = alloc(a.length);
